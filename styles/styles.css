@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* General Styles */
+html {
+   background-color: #f6efea;
+}
+
+body {
+   font-family: "EB Garamond", serif;
+   max-width: 960px;
+   min-width: 640px;
+   padding: 20px;
+   color: #0f216c;
+   margin: 0 auto;
+   font-size: 1.1em;
+}
+
+/* Header */
+header {
+   display: flex;
+   flex-direction: column; 
+   align-items: center; 
+   width: 100%;
+}
+
+header nav {
+   background-color: white;
+   text-align: center;
+   font-weight: bold;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+header nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+}
+
+header nav ul li {
+   display: inline-block;
+   margin: 0 15px;
+   text-align: center;
+}
+
+header nav ul li:first-child {
+   margin-left: 0;
+}
+
+/* Headings */
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Link Styles */
+a:link {
+	color: #00437a;
+	text-decoration: none; 
+ }
+ 
+ a:visited {
+	color: #a20074;
+ }
+
+/* Img */
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+ figcaption {
+	font-style: italic;
+	padding: 2px;
+	text-align: center;
+ }
+
+/* Footer */
+footer {
+   background-color: white;
+   text-align: center;
+   margin: 20px auto 0 auto;
+   width: 100%;
+}
+
+footer img {
+   max-width: 100%;
+   height: auto;
+}
+
+footer nav ul li {
+	display: inline-block;
+	margin-left: 15px;
+   font-weight: bold;
+ 
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+   header {
+      padding: 10px;
+      text-align: center; 
+  }
+
+  header nav {
+      display: block; 
+      margin: 0 auto; 
+  }
+
+  header nav ul {
+      padding: 0;
+      margin: 0;
+      display: block; 
+      text-align: center; 
+  }
+}
+
+@media only screen and (min-width: 769px) {
+   header nav ul {
+      display: flex;
+   }
+}
+
+@media only screen and (min-width: 1025px) {
+   body {
+      margin: 0 auto;
+   }
+
+   header, main, footer {
+      margin: 0 auto;
+      width: 100%;
+   }
+
+   main {
+      margin: 10px 0;
+   }
+}
