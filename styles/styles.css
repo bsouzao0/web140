@@ -71,8 +71,8 @@ a:link {
  
 /* Img */
 .center {
-	display: block;
-   width: 50%;
+	display: flex;
+   width: 40%;
 	margin-left: auto;
 	margin-right: auto;
  }
