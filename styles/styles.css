@@ -69,15 +69,10 @@ a:link {
 	color: #a20074;
  }
  
- img {
-   max-width: 70%;
-   margin: auto;
-   text-align: center;
- }
-
 /* Img */
 .center {
 	display: block;
+   width: 50%;
 	margin-left: auto;
 	margin-right: auto;
  }
