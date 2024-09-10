@@ -68,6 +68,12 @@ a:link {
  a:visited {
 	color: #a20074;
  }
+ 
+ img {
+   max-width: 50%;
+   margin: auto;
+   text-align: center;
+ }
 
 /* Img */
 .center {
